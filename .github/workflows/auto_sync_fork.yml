@@ -1,4 +1,4 @@
-name: Sync Fork
+name: Sync Fork and Create Release
 
 on:
   schedule:
@@ -6,35 +6,47 @@ on:
   workflow_dispatch: # On button click
 
 jobs:
-  sync:
-
+  sync-and-release:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: tgymnich/fork-sync@v1.8
-        with:
-          owner: enthec
-          base: main
-          head: main
-
-
-      - name: Create Tag
-        id: create_tag
-        run: |
-          TAG_NAME="sync-$(date +'%Y%m%d%H%M%S')"
-          git tag $TAG_NAME
-          git push origin $TAG_NAME
-          echo "::set-output name=tag::$TAG_NAME"
+      - name: Checkout the repository
+        uses: actions/checkout@v3
 
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
           node-version: '20'
 
+      - name: Sync Fork
+        id: fork-sync
+        uses: tgymnich/fork-sync@v1.8
+        with:
+          owner: enthec
+          base: main
+          head: main
+        continue-on-error: true
+
+      - name: Check if Sync was Successful
+        id: check-sync
+        if: ${{ steps.fork-sync.outcome == 'failure' }}
+        run: |
+          echo "Fork sync failed, checking for 'No commits' message."
+          SYNC_LOG=$(cat $GITHUB_WORKSPACE/fork-sync.log)
+          if echo "$SYNC_LOG" | grep -q "No commits between"; then
+            echo "No new commits to sync. Exiting."
+            exit 0
+          else
+            echo "Fork sync failed due to other reasons."
+            exit 1
+          fi
+
       - name: Install dependencies
+        if: ${{ steps.fork-sync.outcome == 'success' || steps.check-sync.outcome == 'success' }}
         run: npm install
 
       - name: Run semantic-release
+        if: ${{ steps.fork-sync.outcome == 'success' || steps.check-sync.outcome == 'success' }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: npx semantic-release
