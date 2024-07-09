@@ -19,11 +19,9 @@ jobs:
           node-version: '20'
 
       - name: Install dependencies
-        if: ${{ steps.fork-sync.outcome == 'success' || steps.check-sync.outcome == 'success' }}
         run: npm install
 
       - name: Run semantic-release
-        if: ${{ steps.fork-sync.outcome == 'success' || steps.check-sync.outcome == 'success' }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: npx semantic-release
