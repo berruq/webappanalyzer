@@ -25,7 +25,9 @@
       "<[^>]+class=\"[^\"]*(?:uk-container|uk-section)"
     ],
     "icon": "UIKit.svg",
-    "scriptSrc": "uikit.*\\.js",
+    "scriptSrc": [
+      "uikit.*\\.js"
+    ],
     "website": "https://getuikit.com"
   },
   "UK Mail": {
@@ -34,7 +36,9 @@
     ],
     "description": "UK Mail is a postal service company operating in the United Kingdom.",
     "icon": "UK Mail.png",
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "text": [
       "\\bUK Mail\\b"
     ],
@@ -87,7 +91,9 @@
     ],
     "description": "UPS is an American multinational shipping & receiving and supply chain management company.",
     "icon": "UPS.svg",
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "text": [
       "\\b(?<!-)UPS\\b"
     ],
@@ -99,7 +105,9 @@
     ],
     "description": "The United States Postal Service (USPS) is an independent agency of the executive branch of the United States federal government responsible for providing postal service in the United States.",
     "icon": "USPS.svg",
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "text": [
       "\\bUSPS\\b",
       "\\bUnited States Postal Service\\b"
@@ -116,7 +124,9 @@
       "uswdsPresent": ""
     },
     "oss": true,
-    "scriptSrc": "\\buswds\\b",
+    "scriptSrc": [
+      "\\buswds\\b"
+    ],
     "website": "https://designsystem.digital.gov"
   },
   "Ubercart": {
@@ -127,7 +137,9 @@
     "implies": [
       "Drupal"
     ],
-    "scriptSrc": "uc_cart/uc_cart_block\\.js",
+    "scriptSrc": [
+      "uc_cart/uc_cart_block\\.js"
+    ],
     "website": "https://www.ubercart.org"
   },
   "Ubiliz": {
@@ -253,7 +265,9 @@
     "requires": [
       "WordPress"
     ],
-    "scriptSrc": "/wp-content/plugins/ultimate-social-media-icons/",
+    "scriptSrc": [
+      "/wp-content/plugins/ultimate-social-media-icons/"
+    ],
     "website": "https://www.ultimatelysocial.com"
   },
   "UltraCart": {
@@ -267,8 +281,12 @@
     "js": {
       "ucCatalog": ""
     },
-    "scriptSrc": "cgi-bin\\/UCJavaScript\\?",
-    "url": "/cgi-bin/UCEditor\\?",
+    "scriptSrc": [
+      "cgi-bin\\/UCJavaScript\\?"
+    ],
+    "url": [
+      "/cgi-bin/UCEditor\\?"
+    ],
     "website": "https://ultracart.com"
   },
   "Umami": {
@@ -281,7 +299,9 @@
       "umami": ""
     },
     "oss": true,
-    "scriptSrc": "umami\\.js",
+    "scriptSrc": [
+      "umami\\.js"
+    ],
     "website": "https://umami.is/"
   },
   "Umbraco": {
@@ -321,10 +341,16 @@
       "low"
     ],
     "saas": true,
-    "scripts": "/Umbraco/Api/",
-    "url": "/umbraco/login\\.aspx(?:$|\\?)",
+    "scripts": [
+      "/Umbraco/Api/"
+    ],
+    "url": [
+      "/umbraco/login\\.aspx(?:$|\\?)"
+    ],
     "website": "https://umbraco.com/",
-    "xhr": "/umbraco/api/"
+    "xhr": [
+      "/umbraco/api/"
+    ]
   },
   "UmiJs": {
     "cats": [
@@ -339,7 +365,9 @@
       "g_umi.version": "([\\d\\.]+)\\;version:\\1"
     },
     "oss": true,
-    "scriptSrc": "/umi(\\.[\\w\\d]{8})?\\.js",
+    "scriptSrc": [
+      "/umi(\\.[\\w\\d]{8})?\\.js"
+    ],
     "website": "https://umijs.org"
   },
   "Umso": {
@@ -347,14 +375,18 @@
       51
     ],
     "description": "Umso is a website builder for Startups.",
-    "dom": "link[href*='.umso.co/'], img[src*='.umso.co/'], video[poster*='.umso.co/']",
+    "dom": [
+      "link[href*='.umso.co/'], img[src*='.umso.co/'], video[poster*='.umso.co/']"
+    ],
     "icon": "Umso.svg",
     "pricing": [
       "low",
       "recurring"
     ],
     "saas": true,
-    "scripts": "isPriorBlockingEnabled\\;confidence:75",
+    "scripts": [
+      "isPriorBlockingEnabled\\;confidence:75"
+    ],
     "website": "https://www.umso.com"
   },
   "Unas": {
@@ -388,7 +420,9 @@
       "X-Unbounce-PageId": ""
     },
     "icon": "Unbounce.png",
-    "scriptSrc": "ubembed\\.com",
+    "scriptSrc": [
+      "ubembed\\.com"
+    ],
     "website": "https://unbounce.com"
   },
   "Unbxd": {
@@ -425,7 +459,9 @@
       "_.VERSION": "^(.+)$\\;confidence:0\\;version:\\1",
       "_.restArguments": ""
     },
-    "scriptSrc": "underscore.*\\.js(?:\\?ver=([\\d.]+))?\\;version:\\1",
+    "scriptSrc": [
+      "underscore.*\\.js(?:\\?ver=([\\d.]+))?\\;version:\\1"
+    ],
     "website": "https://underscorejs.org"
   },
   "Understrap": {
@@ -444,7 +480,9 @@
     "requires": [
       "WordPress"
     ],
-    "scriptSrc": "wp-content/themes/understrap(?:[masterchild-]+)?(?:[masterchild-]+)?/",
+    "scriptSrc": [
+      "wp-content/themes/understrap(?:[masterchild-]+)?(?:[masterchild-]+)?/"
+    ],
     "website": "https://understrap.com"
   },
   "UniFi OS": {
@@ -466,7 +504,9 @@
       67
     ],
     "icon": "Uniconsent.png",
-    "scriptSrc": "cmp\\.uniconsent\\.mgr\\.consensu\\.org/dfp\\.js",
+    "scriptSrc": [
+      "cmp\\.uniconsent\\.mgr\\.consensu\\.org/dfp\\.js"
+    ],
     "website": "https://www.uniconsent.com/"
   },
   "Unicorn Platform": {
@@ -511,10 +551,14 @@
       31
     ],
     "description": "Unpkg is a content delivery network for everything on npm.",
-    "dom": "link[href*='unpkg.com']",
+    "dom": [
+      "link[href*='unpkg.com']"
+    ],
     "icon": "Unpkg.png",
     "oss": true,
-    "scriptSrc": "unpkg\\.com/",
+    "scriptSrc": [
+      "unpkg\\.com/"
+    ],
     "website": "https://unpkg.com"
   },
   "Unruly": {
@@ -522,7 +566,9 @@
       36
     ],
     "description": "Unruly is a video advertising platform.",
-    "dom": "link[href*='.unrulymedia.com']",
+    "dom": [
+      "link[href*='.unrulymedia.com']"
+    ],
     "icon": "Unruly.png",
     "js": {
       "unruly.native": ""
@@ -550,7 +596,9 @@
       "mid"
     ],
     "saas": true,
-    "scriptSrc": "www\\.upsellit\\.com/",
+    "scriptSrc": [
+      "www\\.upsellit\\.com/"
+    ],
     "website": "https://us.upsellit.com"
   },
   "UpSolution Zephyr": {
@@ -565,7 +613,9 @@
     "requires": [
       "WordPress"
     ],
-    "scriptSrc": "/wp-content/themes/Zephyr/.+us\\.theme\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
+    "scriptSrc": [
+      "/wp-content/themes/Zephyr/.+us\\.theme\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+    ],
     "website": "https://zephyr.us-themes.com"
   },
   "Upfluence": {
@@ -578,7 +628,9 @@
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "\\.upfluence\\.co/",
+    "scriptSrc": [
+      "\\.upfluence\\.co/"
+    ],
     "website": "https://www.upfluence.com"
   },
   "Uploadcare": {
@@ -586,7 +638,9 @@
       31
     ],
     "description": "Uploadcare is a complete file handling platform for online business. Receive files from you users via File Uploader or File Upload API, implement image optimization and transformations with Image CDN API, and get HIPAA-compliant storage.",
-    "dom": "img[src*='.ucarecdn.com/'], link[href*='ucarecdn.com'], img[data-src*='.ucarecdn.com/']",
+    "dom": [
+      "img[src*='.ucarecdn.com/'], link[href*='ucarecdn.com'], img[data-src*='.ucarecdn.com/']"
+    ],
     "icon": "Uploadcare.svg",
     "js": {
       "uploadcare.version": "^([\\d\\.]+)$\\;version:\\1"
@@ -616,13 +670,17 @@
       93
     ],
     "description": "Upserve is a restaurant management solution featuring an Android or iOS-based point-of-sale system, online ordering, contactless payments, automated inventory management, sales analytics, and more.",
-    "dom": "a[href*='app.upserve.com/']",
+    "dom": [
+      "a[href*='app.upserve.com/']"
+    ],
     "icon": "Upserve.svg",
     "pricing": [
       "payg"
     ],
     "saas": true,
-    "scriptSrc": "app\\.upserve\\.com/",
+    "scriptSrc": [
+      "app\\.upserve\\.com/"
+    ],
     "website": "https://onlineordering.upserve.com"
   },
   "UptimeRobot": {
@@ -647,7 +705,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "\\.uptimerobot\\.com/",
+    "scriptSrc": [
+      "\\.uptimerobot\\.com/"
+    ],
     "website": "https://uptimerobot.com"
   },
   "Uptrends": {
@@ -664,7 +724,9 @@
       "payg"
     ],
     "saas": true,
-    "scriptSrc": "\\.uptrendsdata\\.com/",
+    "scriptSrc": [
+      "\\.uptrendsdata\\.com/"
+    ],
     "website": "https://www.uptrends.com"
   },
   "Upvoty": {
@@ -695,7 +757,9 @@
       68
     ],
     "description": "UsableNet is a technology for web accessibility and digital transformation, providing end-to-end services.",
-    "dom": "iframe[src*='.usablenet.com/pt/']",
+    "dom": [
+      "iframe[src*='.usablenet.com/pt/']"
+    ],
     "icon": "UsableNet.png",
     "js": {
       "enableUsableNetAssistive": ""
@@ -705,7 +769,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "\\.usablenet\\.com/pt/",
+    "scriptSrc": [
+      "\\.usablenet\\.com/pt/"
+    ],
     "website": "https://usablenet.com"
   },
   "Uscreen": {
@@ -739,7 +805,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "//system\\.user-a\\.co\\.il/",
+    "scriptSrc": [
+      "//system\\.user-a\\.co\\.il/"
+    ],
     "website": "https://user-a.co.il"
   },
   "UserLike": {
@@ -772,14 +840,18 @@
       73
     ],
     "description": "UserReport is an online survey and feedback management platform.",
-    "dom": "a[href*='feedback.userreport.com/'][target='_blank']",
+    "dom": [
+      "a[href*='feedback.userreport.com/'][target='_blank']"
+    ],
     "icon": "UserReport.svg",
     "pricing": [
       "freemium",
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "\\.userreport\\.com/",
+    "scriptSrc": [
+      "\\.userreport\\.com/"
+    ],
     "website": "https://www.userreport.com"
   },
   "UserRules": {
@@ -807,7 +879,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "\\.uservoice\\.com/",
+    "scriptSrc": [
+      "\\.uservoice\\.com/"
+    ],
     "website": "https://uservoice.com"
   },
   "UserWay": {
@@ -816,7 +890,9 @@
     ],
     "description": "UserWay is a web accessibility overlay for websites that claims to improve compliance with accessibility standards.",
     "icon": "UserWay.svg",
-    "scriptSrc": "cdn\\.userway\\.org/widget.*\\.js",
+    "scriptSrc": [
+      "cdn\\.userway\\.org/widget.*\\.js"
+    ],
     "website": "https://userway.org/"
   },
   "UserZoom": {
@@ -832,7 +908,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "\\.userzoom\\.com/",
+    "scriptSrc": [
+      "\\.userzoom\\.com/"
+    ],
     "website": "https://www.userzoom.com"
   },
   "Usercentrics": {
@@ -840,7 +918,9 @@
       67
     ],
     "description": "Usercentrics is a SaaS enterprise solution for Consent Management (CMP) that helps enterprise customers to obtain, manage and document the user consent.",
-    "dom": "link[href*='app.usercentrics.eu'], script[data-usercentrics]",
+    "dom": [
+      "link[href*='app.usercentrics.eu'], script[data-usercentrics]"
+    ],
     "icon": "Usercentrics.svg",
     "js": {
       "usercentrics.appVersion": "([\\d.]+)\\;version:\\1"
@@ -851,7 +931,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "\\.usercentrics\\.eu/.+\\.js",
+    "scriptSrc": [
+      "\\.usercentrics\\.eu/.+\\.js"
+    ],
     "website": "https://usercentrics.com"
   },
   "Userflow": {
@@ -870,7 +952,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "\\.userflow\\.com/",
+    "scriptSrc": [
+      "\\.userflow\\.com/"
+    ],
     "website": "https://userflow.com"
   },
   "Userpilot": {
@@ -910,7 +994,9 @@
     "js": {
       "Ushahidi": ""
     },
-    "scriptSrc": "/js/ushahidi\\.js$",
+    "scriptSrc": [
+      "/js/ushahidi\\.js$"
+    ],
     "website": "https://www.ushahidi.com"
   },
   "Usizy": {
@@ -926,7 +1012,9 @@
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "static\\.usizy\\.es/",
+    "scriptSrc": [
+      "static\\.usizy\\.es/"
+    ],
     "website": "https://usizy.com"
   },
   "Uvicorn": {
@@ -960,7 +1048,9 @@
       "low"
     ],
     "saas": true,
-    "scriptSrc": "cdn\\.uvo\\.do/",
+    "scriptSrc": [
+      "cdn\\.uvo\\.do/"
+    ],
     "website": "https://uvodo.com"
   },
   "uKnowva": {
@@ -982,7 +1072,9 @@
     "meta": {
       "generator": "uKnowva (?: ([\\d.]+))?\\;version:\\1"
     },
-    "scriptSrc": "/media/conv/js/jquery\\.js",
+    "scriptSrc": [
+      "/media/conv/js/jquery\\.js"
+    ],
     "website": "https://uknowva.com"
   },
   "uLogin": {
@@ -1054,7 +1146,9 @@
     ],
     "description": "uRemediate provides web accessibility testing tools and accessibility overlays.",
     "icon": "User1st.png",
-    "scriptSrc": "fecdn\\.user1st\\.info/Loader/head",
+    "scriptSrc": [
+      "fecdn\\.user1st\\.info/Loader/head"
+    ],
     "website": "https://www.user1st.com/uremediate/"
   },
   "user.com": {
@@ -1075,10 +1169,14 @@
       15
     ],
     "description": "Utterances is a lightweight comments widget built on GitHub issues.",
-    "dom": "iframe[src*='utteranc.es']",
+    "dom": [
+      "iframe[src*='utteranc.es']"
+    ],
     "icon": "utterances.svg",
     "oss": true,
     "website": "https://utteranc.es/",
-    "xhr": "\\.utteranc\\.es"
+    "xhr": [
+      "\\.utteranc\\.es"
+    ]
   }
 }

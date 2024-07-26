@@ -10,7 +10,9 @@
     "implies": [
       "Java"
     ],
-    "scriptSrc": "zkau/",
+    "scriptSrc": [
+      "zkau/"
+    ],
     "website": "https://zkoss.org"
   },
   "ZURB Foundation": {
@@ -46,7 +48,9 @@
     "meta": {
       "Author": "ZABBIX SIA\\;confidence:70"
     },
-    "url": "\\/zabbix\\/\\;confidence:30",
+    "url": [
+      "\\/zabbix\\/\\;confidence:30"
+    ],
     "website": "https://zabbix.com"
   },
   "Zakeke": {
@@ -86,7 +90,9 @@
       "WooCommerce"
     ],
     "saas": true,
-    "scriptSrc": "/wp-content/plugins/zakeke-interactive-product-designer/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
+    "scriptSrc": [
+      "/wp-content/plugins/zakeke-interactive-product-designer/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+    ],
     "website": "https://www.zakeke.com"
   },
   "Zakeke Visual Customizer": {
@@ -107,7 +113,9 @@
       "Shopify"
     ],
     "saas": true,
-    "scriptSrc": "\\.zakeke\\.com/Scripts/integration/shopify/",
+    "scriptSrc": [
+      "\\.zakeke\\.com/Scripts/integration/shopify/"
+    ],
     "website": "https://www.zakeke.com"
   },
   "Zakra": {
@@ -115,7 +123,9 @@
       80
     ],
     "description": "Zakra is flexible, fast, lightweight and modern multipurpose WordPress theme that comes with many starter free sites.",
-    "dom": "link#zakra-style-css",
+    "dom": [
+      "link#zakra-style-css"
+    ],
     "icon": "Zakra.png",
     "js": {
       "zakraFrontend": "",
@@ -130,7 +140,9 @@
     "requires": [
       "WordPress"
     ],
-    "scriptSrc": "/wp-content/themes/zakra/",
+    "scriptSrc": [
+      "/wp-content/themes/zakra/"
+    ],
     "website": "https://zakratheme.com"
   },
   "Zanox": {
@@ -144,7 +156,9 @@
     "js": {
       "zanox": ""
     },
-    "scriptSrc": "zanox\\.com/scripts/zanox\\.js$",
+    "scriptSrc": [
+      "zanox\\.com/scripts/zanox\\.js$"
+    ],
     "website": "https://zanox.com"
   },
   "Zeabur": {
@@ -184,7 +198,9 @@
       99
     ],
     "description": "Zeleris provides door to door shipment delivery to Ireland, UK and the EU.",
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "text": [
       "\\bZeleris\\b"
     ],
@@ -242,7 +258,9 @@
       "low"
     ],
     "saas": true,
-    "scriptSrc": "static\\.zdassets\\.com",
+    "scriptSrc": [
+      "static\\.zdassets\\.com"
+    ],
     "website": "https://zendesk.com"
   },
   "Zendesk Chat": {
@@ -256,7 +274,9 @@
       "payg"
     ],
     "saas": true,
-    "scriptSrc": "v2\\.zopim\\.com",
+    "scriptSrc": [
+      "v2\\.zopim\\.com"
+    ],
     "website": "https://zopim.com"
   },
   "Zendesk Sunshine Conversations": {
@@ -273,7 +293,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "cdn\\.smooch\\.io/",
+    "scriptSrc": [
+      "cdn\\.smooch\\.io/"
+    ],
     "website": "https://www.zendesk.com/platform/conversations"
   },
   "Zenfolio": {
@@ -292,13 +314,17 @@
       97
     ],
     "description": "Zeotap is a customer intelligence platform that helps brands better understand their customers and predict behaviors.",
-    "dom": "link[href*='.zeotap.com']",
+    "dom": [
+      "link[href*='.zeotap.com']"
+    ],
     "icon": "Zeotap.png",
     "pricing": [
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "\\.zeotap\\.com",
+    "scriptSrc": [
+      "\\.zeotap\\.com"
+    ],
     "website": "https://zeotap.com"
   },
   "Zepto": {
@@ -309,7 +335,9 @@
     "js": {
       "Zepto": ""
     },
-    "scriptSrc": "zepto.*\\.js",
+    "scriptSrc": [
+      "zepto.*\\.js"
+    ],
     "website": "https://zeptojs.com"
   },
   "ZestMoney": {
@@ -446,7 +474,9 @@
       91
     ],
     "description": "Zip is a payment service that lets you receive your purchase now and spread the total cost over a interest-free payment schedule.",
-    "dom": "link[href*='widgets.quadpay.com/'], div[data-quadpay-src*='.quadpay.com/']",
+    "dom": [
+      "link[href*='widgets.quadpay.com/'], div[data-quadpay-src*='.quadpay.com/']"
+    ],
     "icon": "zip_pay.svg",
     "js": {
       "QuadPayShopify": "",
@@ -475,7 +505,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "/zipify-oneclickupsell-vendor\\.js",
+    "scriptSrc": [
+      "/zipify-oneclickupsell-vendor\\.js"
+    ],
     "website": "https://zipify.com/apps/ocu/"
   },
   "Zipify Pages": {
@@ -526,7 +558,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "c(?:reator)?\\.zmags\\.com/",
+    "scriptSrc": [
+      "c(?:reator)?\\.zmags\\.com/"
+    ],
     "website": "https://www.creatorbyzmags.com"
   },
   "Zocdoc": {
@@ -534,13 +568,17 @@
       72
     ],
     "description": "Zocdoc is a New York City-based company offering an online service that allows people to find and book in-person or telemedicine appointments for medical or dental care.",
-    "dom": "a[href*='www.zocdoc.com'][target='_blank']",
+    "dom": [
+      "a[href*='www.zocdoc.com'][target='_blank']"
+    ],
     "icon": "Zocdoc.svg",
     "pricing": [
       "payg"
     ],
     "saas": true,
-    "scriptSrc": "offsiteschedule\\.zocdoc\\.com",
+    "scriptSrc": [
+      "offsiteschedule\\.zocdoc\\.com"
+    ],
     "website": "https://www.zocdoc.com"
   },
   "Zoey": {
@@ -561,7 +599,9 @@
       "zoey.developer": "",
       "zoeyDev": ""
     },
-    "scriptSrc": "cdna4\\.zoeysite\\.com",
+    "scriptSrc": [
+      "cdna4\\.zoeysite\\.com"
+    ],
     "website": "https://www.zoey.com/"
   },
   "Zoho": {
@@ -617,7 +657,9 @@
       "payg"
     ],
     "saas": true,
-    "scriptSrc": "\\.pagesense\\.(?:cn|io)?",
+    "scriptSrc": [
+      "\\.pagesense\\.(?:cn|io)?"
+    ],
     "website": "https://www.zoho.com/pagesense/"
   },
   "Zoko": {
@@ -638,7 +680,9 @@
       "mid"
     ],
     "saas": true,
-    "scriptSrc": "zoko-shopify-prod\\.web\\.app",
+    "scriptSrc": [
+      "zoko-shopify-prod\\.web\\.app"
+    ],
     "website": "https://www.zoko.io/"
   },
   "Zone.js": {
@@ -669,20 +713,26 @@
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "\\.zonos\\.com/",
+    "scriptSrc": [
+      "\\.zonos\\.com/"
+    ],
     "website": "https://zonos.com"
   },
   "ZoodPay": {
     "cats": [
       91
     ],
-    "dom": "img[src*='zoodpay']",
+    "dom": [
+      "img[src*='zoodpay']"
+    ],
     "icon": "ZoodPay.png",
     "pricing": [
       "payg"
     ],
     "saas": true,
-    "scriptSrc": "wp-content/plugins/zoodpay/(?:.+\\?ver=([\\d\\.]+))?\\;version:\\1",
+    "scriptSrc": [
+      "wp-content/plugins/zoodpay/(?:.+\\?ver=([\\d\\.]+))?\\;version:\\1"
+    ],
     "website": "https://www.zoodpay.com"
   },
   "Zoominfo": {
@@ -692,7 +742,9 @@
     "description": "ZoomInfo provides actionable B2B contact and company information for sales and marketing teams.",
     "icon": "Zoominfo.svg",
     "saas": true,
-    "scriptSrc": "ws\\.zoominfo\\.com",
+    "scriptSrc": [
+      "ws\\.zoominfo\\.com"
+    ],
     "website": "https://www.zoominfo.com/"
   },
   "Zoominfo Chat": {
@@ -702,7 +754,9 @@
     "description": "ZoomInfo chat is a live chat solution.",
     "icon": "Zoominfo.svg",
     "saas": true,
-    "scriptSrc": "madstreetden\\.widget\\.insent\\.ai",
+    "scriptSrc": [
+      "madstreetden\\.widget\\.insent\\.ai"
+    ],
     "website": "https://www.zoominfo.com/chat"
   },
   "Zope": {
@@ -753,7 +807,9 @@
     "meta": {
       "generator": "Zozo Ecommerce"
     },
-    "scriptSrc": "zozo-main\\.min\\.js",
+    "scriptSrc": [
+      "zozo-main\\.min\\.js"
+    ],
     "website": "https://zozo.vn"
   },
   "Zuppler": {
@@ -761,7 +817,9 @@
       93
     ],
     "description": "Zuppler is a complete and branded online ordering solution for restaurants and caterers with multi-locations.",
-    "dom": "link[href*='.zuppler.com/']",
+    "dom": [
+      "link[href*='.zuppler.com/']"
+    ],
     "icon": "Zuppler.png",
     "pricing": [
       "payg"

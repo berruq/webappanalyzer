@@ -32,7 +32,9 @@
       69
     ],
     "description": "LINE Login is an API that allows you to implement a login function into your services, regardless of whether they are web apps or native apps.",
-    "dom": "a[href*='access.line.me/']",
+    "dom": [
+      "a[href*='access.line.me/']"
+    ],
     "icon": "LINE.svg",
     "js": {
       "Constants.authorization_request_url": "access\\.line\\.me/oauth2/v([\\d\\.]+)/\\;version:\\1"
@@ -44,7 +46,9 @@
       36
     ],
     "description": "LKQD is a video advertising platform that enables publishers to serve video ads across multiple devices and formats.",
-    "dom": "iframe[src*='.lkqd.net']",
+    "dom": [
+      "iframe[src*='.lkqd.net']"
+    ],
     "icon": "LKQD.svg",
     "js": {
       "lkqdCall": "",
@@ -52,9 +56,13 @@
       "lkqdSettings": "",
       "lkqd_http_response": ""
     },
-    "scriptSrc": "\\.lkqd\\.net",
+    "scriptSrc": [
+      "\\.lkqd\\.net"
+    ],
     "website": "https://wiki.lkqd.com",
-    "xhr": "\\.lkqd\\.net"
+    "xhr": [
+      "\\.lkqd\\.net"
+    ]
   },
   "LOU": {
     "cats": [
@@ -62,7 +70,9 @@
     ],
     "description": "LOU is a Digital Adoption Platform that streamlines user onboarding and training.",
     "icon": "LOU.png",
-    "scriptSrc": "cdn\\.louassist\\.com*",
+    "scriptSrc": [
+      "cdn\\.louassist\\.com*"
+    ],
     "website": "https://www.louassist.com"
   },
   "Lagoon": {
@@ -93,7 +103,9 @@
       "freemium",
       "mid"
     ],
-    "scriptSrc": "\\.landbot\\.io/.*-([\\d\\.]+)\\.js",
+    "scriptSrc": [
+      "\\.landbot\\.io/.*-([\\d\\.]+)\\.js"
+    ],
     "website": "https://landbot.io"
   },
   "LandingPress": {
@@ -110,7 +122,9 @@
     "requires": [
       "WordPress"
     ],
-    "scriptSrc": "/wp-content/themes/landingpress-wp/.+script\\.min\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
+    "scriptSrc": [
+      "/wp-content/themes/landingpress-wp/.+script\\.min\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+    ],
     "website": "https://landingpress.net"
   },
   "LangShop": {
@@ -134,7 +148,9 @@
       "freemium"
     ],
     "saas": true,
-    "scriptSrc": "\\.langshop\\.app/",
+    "scriptSrc": [
+      "\\.langshop\\.app/"
+    ],
     "website": "https://langshop.io"
   },
   "Laravel": {
@@ -181,7 +197,9 @@
     "meta": {
       "laterpay:connector:callbacks:on_user_has_access": "deobfuscateText"
     },
-    "scriptSrc": "https?://connectormwi\\.laterpay\\.net/([0-9.]+)[a-zA-z-]*/live/[\\w-]+\\.js\\;version:\\1",
+    "scriptSrc": [
+      "https?://connectormwi\\.laterpay\\.net/([0-9.]+)[a-zA-z-]*/live/[\\w-]+\\.js\\;version:\\1"
+    ],
     "website": "https://www.laterpay.net/"
   },
   "LatitudePay": {
@@ -189,7 +207,9 @@
       91
     ],
     "description": "LatitudePay is an interest-free, buy now, pay later solution.",
-    "dom": "a[href*='latitudepay.com/'][target='_blank'], img[src='.latitudepayapps.com/']",
+    "dom": [
+      "a[href*='latitudepay.com/'][target='_blank'], img[src='.latitudepayapps.com/']"
+    ],
     "icon": "LatitudePay.svg",
     "js": {
       "checkout.enabledpayments.latitudepay": "^true$",
@@ -199,7 +219,9 @@
       "freemium"
     ],
     "saas": true,
-    "scriptSrc": "\\.latitudepayapps\\.com/",
+    "scriptSrc": [
+      "\\.latitudepayapps\\.com/"
+    ],
     "website": "https://www.latitudepay.com"
   },
   "LaunchDarkly": {
@@ -207,7 +229,9 @@
       85
     ],
     "description": "LaunchDarkly is a continuous delivery and feature flags as a service platform that integrates into a company's current development cycle.",
-    "dom": "link[href*='.launchdarkly.com']",
+    "dom": [
+      "link[href*='.launchdarkly.com']"
+    ],
     "icon": "LaunchDarkly.svg",
     "js": {
       "DDC.WS.state": "",
@@ -218,7 +242,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "(?:\\.|\\-)launchdarkly(?:\\.com/|\\-sdk\\.)",
+    "scriptSrc": [
+      "(?:\\.|\\-)launchdarkly(?:\\.com/|\\-sdk\\.)"
+    ],
     "website": "https://launchdarkly.com",
     "xhr": [
       "app\\.launchdarkly\\.com",
@@ -244,7 +270,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "builder\\.launchrock\\.com",
+    "scriptSrc": [
+      "builder\\.launchrock\\.com"
+    ],
     "website": "https://www.launchrock.com"
   },
   "LayBuy": {
@@ -252,7 +280,9 @@
       91
     ],
     "description": "Laybuy is a payment service that lets you receive your purchase now and spread the total cost over 6 weekly automatic payments interest free.",
-    "dom": "iframe[src='.laybuy.com/'], a[href*='.laybuy.com/what-is-laybuy']",
+    "dom": [
+      "iframe[src='.laybuy.com/'], a[href*='.laybuy.com/what-is-laybuy']"
+    ],
     "icon": "LayBuy.svg",
     "js": {
       "LaybuyHelper": "",
@@ -264,7 +294,9 @@
     "pricing": [
       "payg"
     ],
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "saas": true,
     "scriptSrc": [
       "\\.laybuy\\.com/",
@@ -288,7 +320,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "app\\.layouthub\\.com/shopify/layouthub\\.js",
+    "scriptSrc": [
+      "app\\.layouthub\\.com/shopify/layouthub\\.js"
+    ],
     "website": "https://layouthub.com"
   },
   "Layui": {
@@ -301,6 +335,7 @@
       "layui.v": "([\\d\\.]+)\\;version:\\1"
     },
     "oss": true,
+    "cpe": "cpe:2.3:a:layui:layui:*:*:*:*:*:*:*:*",
     "website": "https://layui.gitee.io"
   },
   "Lazada": {
@@ -340,7 +375,9 @@
     "description": "LazySizes unveilhooks plugin extends lazySizes to lazyload scripts/widgets, background images, styles and video/audio elements.",
     "icon": "default.svg",
     "oss": true,
-    "scriptSrc": "ls\\.unveilhooks(?:\\.min)?\\.js",
+    "scriptSrc": [
+      "ls\\.unveilhooks(?:\\.min)?\\.js"
+    ],
     "website": "https://github.com/aFarkas/lazysizes/tree/gh-pages/plugins/unveilhooks"
   },
   "LeadChat": {
@@ -357,7 +394,9 @@
     "requires": [
       "LiveChat"
     ],
-    "scriptSrc": "(?://|\\.)chatsystem\\.io/",
+    "scriptSrc": [
+      "(?://|\\.)chatsystem\\.io/"
+    ],
     "website": "https://www.leadchat.com"
   },
   "Leadfeeder": {
@@ -378,7 +417,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "\\.leadfeeder\\.com/",
+    "scriptSrc": [
+      "\\.leadfeeder\\.com/"
+    ],
     "website": "https://www.leadfeeder.com"
   },
   "Leadinfo": {
@@ -396,7 +437,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "cdn\\.leadinfo\\.net",
+    "scriptSrc": [
+      "cdn\\.leadinfo\\.net"
+    ],
     "website": "https://www.leadinfo.com"
   },
   "Leadster": {
@@ -430,7 +473,10 @@
       "L.PosAnimation": "",
       "L.version": "^(.+)$\\;version:\\1\\;confidence:0"
     },
-    "scriptSrc": "(?:((?:\\d+\\.)+\\d+)\\/(?:dist\\/)?)?leaflet[\\w\\-\\.]{0,32}\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?(?!.+shopify)\\;version:\\1\\2",
+    "scriptSrc": [
+      "(?:(?:dist\\/)?)?leaflet[\\w\\-\\.]{0,32}\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?(?!.+shopify)\\;version:\\1",
+      "(?:((?:\\d+\\.)+\\d+)\\/(?:dist\\/)?)?leaflet[\\w\\-\\.]{0,32}\\.js(?!.+shopify)\\;version:\\1"
+    ],
     "website": "https://leafletjs.com"
   },
   "Leaflet platform": {
@@ -447,7 +493,9 @@
       "payg"
     ],
     "saas": true,
-    "scriptSrc": "scripts\\.leaflet\\.co/",
+    "scriptSrc": [
+      "scripts\\.leaflet\\.co/"
+    ],
     "website": "https://join.leaflet.co"
   },
   "Leanplum": {
@@ -464,7 +512,9 @@
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "npm/leanplum-sdk\\@([\\d.]+)\\;version:\\1",
+    "scriptSrc": [
+      "npm/leanplum-sdk\\@([\\d.]+)\\;version:\\1"
+    ],
     "website": "https://www.leanplum.com"
   },
   "LearnDash": {
@@ -506,7 +556,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "cdn\\.mycourse\\.app/v([\\d\\.]+)/\\;version:\\1",
+    "scriptSrc": [
+      "cdn\\.mycourse\\.app/v([\\d\\.]+)/\\;version:\\1"
+    ],
     "website": "https://www.learnworlds.com"
   },
   "Leaseweb": {
@@ -563,7 +615,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "\\.legalmonster\\.com/",
+    "scriptSrc": [
+      "\\.legalmonster\\.com/"
+    ],
     "website": "https://www.legalmonster.com"
   },
   "Lemon Squeezy": {
@@ -593,7 +647,9 @@
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "\\.lengow\\.com/",
+    "scriptSrc": [
+      "\\.lengow\\.com/"
+    ],
     "website": "https://www.lengow.com"
   },
   "Lenis": {
@@ -626,7 +682,9 @@
       "__LEPTOS_RESOURCE_RESOLVERS": ""
     },
     "oss": true,
-    "scripts": "export function microtask\\(f\\)\\;confidence:75",
+    "scripts": [
+      "export function microtask\\(f\\)\\;confidence:75"
+    ],
     "website": "https://leptos.dev"
   },
   "Less": {
@@ -663,7 +721,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "letro\\.jp/tags",
+    "scriptSrc": [
+      "letro\\.jp/tags"
+    ],
     "website": "https://service.aainc.co.jp/product/letro/"
   },
   "Levar": {
@@ -708,7 +768,9 @@
       101
     ],
     "description": "Lever is a software company headquartered in San Francisco, California and Toronto, Canada that provides an applicant tracking system for hiring.",
-    "dom": "a[href*='jobs.lever.co/']",
+    "dom": [
+      "a[href*='jobs.lever.co/']"
+    ],
     "headers": {
       "Content-Security-Policy": "\\.lever\\.co"
     },
@@ -725,7 +787,9 @@
     ],
     "description": "Lexity is the one-stop-shop of ecommerce services for SMBs.",
     "icon": "Lexity.png",
-    "scriptSrc": "\\.lexity\\.com/",
+    "scriptSrc": [
+      "\\.lexity\\.com/"
+    ],
     "website": "https://lexity.com"
   },
   "Liberapay": {
@@ -733,9 +797,13 @@
       41
     ],
     "description": "Liberapay is a non-profit organisation subscription payment platform.",
-    "dom": "a[href*='//liberapay.com/'][target='_blank']",
+    "dom": [
+      "a[href*='//liberapay.com/'][target='_blank']"
+    ],
     "icon": "Liberapay.svg",
-    "scriptSrc": "//liberapay\\.com/",
+    "scriptSrc": [
+      "//liberapay\\.com/"
+    ],
     "website": "https://liberapay.com/"
   },
   "Libravatar": {
@@ -743,7 +811,9 @@
       19
     ],
     "description": "Libravatar is a service for fetching avatar images for e-mail addresses and OpenIDs in a privacy respecting way.",
-    "dom": "img[src*='.libravatar.org/avatar/']",
+    "dom": [
+      "img[src*='.libravatar.org/avatar/']"
+    ],
     "icon": "libravatar.png",
     "oss": true,
     "website": "https://www.libravatar.org/"
@@ -837,7 +907,9 @@
       "lightbox.$lightbox": ""
     },
     "oss": true,
-    "scriptSrc": "lightbox(?:-plus-jquery)?.{0,32}\\.js",
+    "scriptSrc": [
+      "lightbox(?:-plus-jquery)?.{0,32}\\.js"
+    ],
     "website": "https://lokeshdhakar.com/projects/lightbox2/"
   },
   "Lightning": {
@@ -845,7 +917,9 @@
       80
     ],
     "description": "Lightning is a very simple and easy to customize WordPress theme which is based on the Bootstrap.",
-    "dom": "link[href*='/wp-content/themes/lightning/'], link[href*='/wp-content/themes/lightning-pro/']",
+    "dom": [
+      "link[href*='/wp-content/themes/lightning/'], link[href*='/wp-content/themes/lightning-pro/']"
+    ],
     "icon": "Lightning.png",
     "js": {
       "lightningOpt.header_scrool": ""
@@ -858,7 +932,9 @@
     "requires": [
       "WordPress"
     ],
-    "scriptSrc": "/wp-content/themes/lightning(?:-pro)?/.+lightning\\.min\\.js(?:.+ver=([\\d\\.]+))?\\;version:\\1",
+    "scriptSrc": [
+      "/wp-content/themes/lightning(?:-pro)?/.+lightning\\.min\\.js(?:.+ver=([\\d\\.]+))?\\;version:\\1"
+    ],
     "website": "https://lightning.vektor-inc.co.jp/en/"
   },
   "Lightspeed eCom": {
@@ -873,8 +949,12 @@
       "low"
     ],
     "saas": true,
-    "scriptSrc": "http://assets\\.webshopapp\\.com",
-    "url": "seoshop.webshopapp.com",
+    "scriptSrc": [
+      "http://assets\\.webshopapp\\.com"
+    ],
+    "url": [
+      "seoshop.webshopapp.com"
+    ],
     "website": "https://www.lightspeedhq.com/products/ecommerce/"
   },
   "LimeChat": {
@@ -887,7 +967,9 @@
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "\\.limechat\\.ai/",
+    "scriptSrc": [
+      "\\.limechat\\.ai/"
+    ],
     "website": "https://www.limechat.ai"
   },
   "LimeSpot": {
@@ -905,7 +987,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "\\.personalizer\\.io/",
+    "scriptSrc": [
+      "\\.personalizer\\.io/"
+    ],
     "website": "https://www.limespot.com"
   },
   "Limepay": {
@@ -931,7 +1015,9 @@
       16
     ],
     "description": "Limit Login Attempts Reloaded stops brute-force attacks and optimizes your site performance by limiting the number of login attempts that are possible through the normal login as well as XMLRPC, Woocommerce and custom login pages.",
-    "dom": "link#llar-login-page-styles-css",
+    "dom": [
+      "link#llar-login-page-styles-css"
+    ],
     "icon": "Limit Login Attempts Reloaded.png",
     "pricing": [
       "freemium",
@@ -974,7 +1060,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "cdn\\.linkmink\\.com/lm-js/([\\d\\.]+)/\\;version:\\1",
+    "scriptSrc": [
+      "cdn\\.linkmink\\.com/lm-js/([\\d\\.]+)/\\;version:\\1"
+    ],
     "website": "https://linkmink.com"
   },
   "Linkedin Ads": {
@@ -1018,7 +1106,9 @@
       "snap\\.licdn\\.com/li\\.lms-analytics/insight\\.min\\.js",
       "cdn\\.oribi\\.io"
     ],
-    "scripts": "_linkedin_partner_id",
+    "scripts": [
+      "_linkedin_partner_id"
+    ],
     "website": "https://business.linkedin.com/marketing-solutions/insight-tag"
   },
   "Linkedin Sign-in": {
@@ -1031,7 +1121,9 @@
       "OnLinkedInAuth": "",
       "onLinkedInLoad": ""
     },
-    "scriptSrc": "platform\\.linkedin\\.com/(?:.*)?in\\.js(?:\\?version)?([\\d.]+)?\\;version:\\1",
+    "scriptSrc": [
+      "platform\\.linkedin\\.com/(?:.*)?in\\.js(?:\\?version)?([\\d.]+)?\\;version:\\1"
+    ],
     "website": "https://www.linkedin.com/developers"
   },
   "Linx Commerce": {
@@ -1057,7 +1149,9 @@
       76
     ],
     "description": "Linx Impulse is a personalisation, media and retargeting solutions built by Linx.",
-    "dom": "link[href*='.linximpulse.net']",
+    "dom": [
+      "link[href*='.linximpulse.net']"
+    ],
     "icon": "Linx.png",
     "js": {
       "linx.banner": "",
@@ -1188,7 +1282,9 @@
       "mid",
       "recurring"
     ],
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "saas": true,
     "website": "https://www.littledata.io"
   },
@@ -1236,7 +1332,9 @@
     "requires": [
       "WordPress"
     ],
-    "scriptSrc": "/wp-content/plugins/livecanvas/",
+    "scriptSrc": [
+      "/wp-content/plugins/livecanvas/"
+    ],
     "website": "https://livecanvas.com"
   },
   "LiveChat": {
@@ -1252,7 +1350,9 @@
       "payg"
     ],
     "saas": true,
-    "scriptSrc": "cdn\\.livechatinc\\.com/.*tracking\\.js",
+    "scriptSrc": [
+      "cdn\\.livechatinc\\.com/.*tracking\\.js"
+    ],
     "website": "https://www.livechat.com/"
   },
   "LiveHelp": {
@@ -1285,9 +1385,13 @@
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "\\.liadm\\.com",
+    "scriptSrc": [
+      "\\.liadm\\.com"
+    ],
     "website": "https://www.liveintent.com",
-    "xhr": "\\.liadm\\.com"
+    "xhr": [
+      "\\.liadm\\.com"
+    ]
   },
   "LiveJournal": {
     "cats": [
@@ -1295,7 +1399,9 @@
     ],
     "description": "LiveJournal is a social networking service where users can keep a blog, journal or diary.",
     "icon": "LiveJournal.png",
-    "url": "\\.livejournal\\.com",
+    "url": [
+      "\\.livejournal\\.com"
+    ],
     "website": "https://www.livejournal.com"
   },
   "LivePerson": {
@@ -1313,7 +1419,9 @@
       "payg"
     ],
     "saas": true,
-    "scriptSrc": "\\.(?:liveperson|contactatonce)?\\.(?:com|net|co\\.uk)/",
+    "scriptSrc": [
+      "\\.(?:liveperson|contactatonce)?\\.(?:com|net|co\\.uk)/"
+    ],
     "website": "https://www.liveperson.com"
   },
   "LiveRamp DPM": {
@@ -1325,7 +1433,9 @@
     "js": {
       "dpmComscoreVars": ""
     },
-    "scriptSrc": "c\\.tvpixel\\.com/js/current/dpm_pixel_min\\.js",
+    "scriptSrc": [
+      "c\\.tvpixel\\.com/js/current/dpm_pixel_min\\.js"
+    ],
     "website": "https://liveramp.com/data-plus-math"
   },
   "LiveRamp PCM": {
@@ -1333,12 +1443,16 @@
       67
     ],
     "description": "LiveRamp PCM is a preference and consent management platform that enables comply with the ePrivacy Directive, GDPR, CCPA, and other data protection and privacy laws and regulations.",
-    "dom": "iframe[src*='gdpr-consent-tool\\.privacymanager\\.io']",
+    "dom": [
+      "iframe[src*='gdpr-consent-tool\\.privacymanager\\.io']"
+    ],
     "icon": "LiveRamp.svg",
     "js": {
       "wpJsonpLiverampGdprCmp": ""
     },
-    "scriptSrc": "gdpr\\.privacymanager\\.io",
+    "scriptSrc": [
+      "gdpr\\.privacymanager\\.io"
+    ],
     "website": "https://liveramp.com/our-platform/preference-consent-management"
   },
   "LiveSession": {
@@ -1380,7 +1494,9 @@
     ],
     "cpe": "cpe:2.3:a:livezilla:livezilla:*:*:*:*:*:*:*:*",
     "description": "LiveZilla is a web-based live support platform.",
-    "dom": "#lz_overlay_chat",
+    "dom": [
+      "#lz_overlay_chat"
+    ],
     "icon": "LiveZilla.png",
     "js": {
       "lz_chat_execute": "",
@@ -1409,7 +1525,9 @@
       "LF.CommentCount": "",
       "fyre": ""
     },
-    "scriptSrc": "livefyre_init\\.js",
+    "scriptSrc": [
+      "livefyre_init\\.js"
+    ],
     "website": "https://livefyre.com"
   },
   "Liveinternet": {
@@ -1440,7 +1558,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "\\.livescale\\.tv/",
+    "scriptSrc": [
+      "\\.livescale\\.tv/"
+    ],
     "website": "https://www.livescale.tv"
   },
   "Livewire": {
@@ -1460,7 +1580,9 @@
       "livewire": ""
     },
     "oss": true,
-    "scriptSrc": "livewire(?:\\.min)?\\.js",
+    "scriptSrc": [
+      "livewire(?:\\.min)?\\.js"
+    ],
     "website": "https://laravel-livewire.com"
   },
   "LlamaLink Cloud Server": {
@@ -1486,7 +1608,9 @@
       59
     ],
     "description": "Loadable-Components is a library to solve the React code-splitting client-side and server-side.",
-    "dom": "script#__LOADABLE_REQUIRED_CHUNKS__",
+    "dom": [
+      "script#__LOADABLE_REQUIRED_CHUNKS__"
+    ],
     "icon": "Loadable-Components.png",
     "js": {
       "__LOADABLE_LOADED_CHUNKS__": ""
@@ -1504,7 +1628,9 @@
     "implies": [
       "Shopify"
     ],
-    "scriptSrc": "\\.loadifyapp\\.ninety9\\.dev",
+    "scriptSrc": [
+      "\\.loadifyapp\\.ninety9\\.dev"
+    ],
     "website": "https://apps.shopify.com/loadify"
   },
   "LocalFocus": {
@@ -1544,7 +1670,9 @@
     ],
     "saas": true,
     "website": "https://www.localised.com",
-    "xhr": "api\\.localised\\.com"
+    "xhr": [
+      "api\\.localised\\.com"
+    ]
   },
   "Locksmith": {
     "cats": [
@@ -1579,7 +1707,9 @@
       "LocomotiveScroll": ""
     },
     "oss": true,
-    "scriptSrc": "locomotive-scroll(?:\\.min)?\\.js",
+    "scriptSrc": [
+      "locomotive-scroll(?:\\.min)?\\.js"
+    ],
     "website": "https://scroll.locomotive.ca/docs/#/"
   },
   "LocomotiveCMS": {
@@ -1611,7 +1741,9 @@
       "_.differenceBy": "",
       "_.templateSettings.imports._.templateSettings.imports._.VERSION": "^(.+)$\\;version:\\1"
     },
-    "scriptSrc": "lodash.*\\.js",
+    "scriptSrc": [
+      "lodash.*\\.js"
+    ],
     "website": "https://www.lodash.com"
   },
   "Loglib": {
@@ -1646,7 +1778,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "cdn\\.(?:lr-ingest|logrocket)\\.(?:com|io)",
+    "scriptSrc": [
+      "cdn\\.(?:lr-ingest|logrocket)\\.(?:com|io)"
+    ],
     "website": "https://logrocket.com"
   },
   "Loggly": {
@@ -1654,7 +1788,9 @@
       10
     ],
     "description": "Loggly is a cloud-based log management service provider.",
-    "dom": "link[href*='.loggly.com']",
+    "dom": [
+      "link[href*='.loggly.com']"
+    ],
     "icon": "Loggly.svg",
     "js": {
       "LogglyTracker": ""
@@ -1664,7 +1800,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "\\.loggly\\.com/",
+    "scriptSrc": [
+      "\\.loggly\\.com/"
+    ],
     "website": "https://www.loggly.com"
   },
   "LogiCommerce": {
@@ -1728,7 +1866,9 @@
     ],
     "description": "LogoiX is a German shipping company.",
     "icon": "LogoiX.png",
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "text": [
       "\\bLogoiX\\b"
     ],
@@ -1761,7 +1901,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "lojamestre\\.\\w+\\.br",
+    "scriptSrc": [
+      "lojamestre\\.\\w+\\.br"
+    ],
     "website": "https://www.lojamestre.com.br/"
   },
   "Loja Virtual": {
@@ -1798,7 +1940,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "loja2\\.com\\.br",
+    "scriptSrc": [
+      "loja2\\.com\\.br"
+    ],
     "website": "https://www.loja2.com.br"
   },
   "Loom": {
@@ -1826,7 +1970,9 @@
       102
     ],
     "description": "Loop Returns is a return portal that automated all the returns and refunds of products.",
-    "dom": "a[href*='.loopreturns.com/']",
+    "dom": [
+      "a[href*='.loopreturns.com/']"
+    ],
     "icon": "Loop.svg",
     "js": {
       "Loop.config.variantParam": "",
@@ -1836,7 +1982,9 @@
       "low",
       "recurring"
     ],
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "saas": true,
     "website": "https://www.loopreturns.com"
   },
@@ -1866,7 +2014,9 @@
       94
     ],
     "description": "Lootly is a loyalty and referral marketing automation software suite for ecommerce businesses.",
-    "dom": "iframe[src*='lootly.io/']",
+    "dom": [
+      "iframe[src*='lootly.io/']"
+    ],
     "icon": "Lootly.png",
     "js": {
       "Lootly.config": "",
@@ -1877,7 +2027,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "lootly\\.io/",
+    "scriptSrc": [
+      "lootly\\.io/"
+    ],
     "website": "https://lootly.io"
   },
   "Loox": {
@@ -1894,7 +2046,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "loox\\.io/widget",
+    "scriptSrc": [
+      "loox\\.io/widget"
+    ],
     "website": "https://loox.app"
   },
   "Loqate": {
@@ -1918,7 +2072,9 @@
       19
     ],
     "description": "LottieFiles is an open-source animation file format that's tiny, high quality, interactive, and can be manipulated at runtime.",
-    "dom": "lottie-player, div[data-animation-type='lottie'], div[data-testid='lottie-player'], clipPath[id*='__lottie_element_']",
+    "dom": [
+      "lottie-player, div[data-animation-type='lottie'], div[data-testid='lottie-player'], clipPath[id*='__lottie_element_']"
+    ],
     "icon": "LottieFiles.svg",
     "js": {
       "lottie.version": "^(.+)$\\;version:\\1"
@@ -1944,7 +2100,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "sdk\\.loyaltylion\\.net/",
+    "scriptSrc": [
+      "sdk\\.loyaltylion\\.net/"
+    ],
     "website": "https://loyaltylion.com"
   },
   "Lozad.js": {
@@ -1958,7 +2116,9 @@
       "lozad": ""
     },
     "oss": true,
-    "scripts": "/lozad\\.min\\.js",
+    "scripts": [
+      "/lozad\\.min\\.js"
+    ],
     "website": "https://apoorv.pro/lozad.js/"
   },
   "Lua": {
@@ -2008,7 +2168,9 @@
       10
     ],
     "description": "Lucky Orange is a conversion optimisation tool with features including heatmaps, session recording, conversion funnels, form analytics, and chat.",
-    "dom": "link[href*='.luckyorange.com']",
+    "dom": [
+      "link[href*='.luckyorange.com']"
+    ],
     "icon": "Lucky Orange.svg",
     "js": {
       "__wtw_lucky_site_id": ""
@@ -2019,7 +2181,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "\\.luckyorange\\.com/",
+    "scriptSrc": [
+      "\\.luckyorange\\.com/"
+    ],
     "website": "https://www.luckyorange.com"
   },
   "Luigi’s Box": {
@@ -2053,7 +2217,9 @@
       105
     ],
     "description": "Luna is a company that sells software that aids eyewear companies sell their products online using virtual fitting.",
-    "dom": "link[href*='bsdk.api.ditto.com']",
+    "dom": [
+      "link[href*='bsdk.api.ditto.com']"
+    ],
     "headers": {
       "Content-Security-Policy": "bsdk\\.api\\.ditto.com"
     },
@@ -2080,7 +2246,9 @@
       "lunr": ""
     },
     "oss": true,
-    "scriptSrc": "(?:((?:\\d+\\.)+\\d+)\\/)?lunr(?:-store)?(?:-en)?(?:\\.min)?\\.js",
+    "scriptSrc": [
+      "(?:((?:\\d+\\.)+\\d+)\\/)?lunr(?:-store)?(?:-en)?(?:\\.min)?\\.js"
+    ],
     "website": "https://lunrjs.com/"
   },
   "LyraThemes Kale": {
@@ -2100,7 +2268,9 @@
     "requires": [
       "WordPress"
     ],
-    "scriptSrc": "/wp-content/themes/kale(?:-pro)?/",
+    "scriptSrc": [
+      "/wp-content/themes/kale(?:-pro)?/"
+    ],
     "website": "https://www.lyrathemes.com/kale"
   },
   "Lytics": {
@@ -2117,7 +2287,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "\\.lytics\\.io/",
+    "scriptSrc": [
+      "\\.lytics\\.io/"
+    ],
     "website": "https://www.lytics.com"
   },
   "langify": {
@@ -2135,7 +2307,9 @@
       "low",
       "recurring"
     ],
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "saas": true,
     "website": "https://langify-app.com"
   },
@@ -2150,7 +2324,9 @@
       "libphonenumber.DIGITS": ""
     },
     "oss": true,
-    "scriptSrc": "(?:/([\\d\\.]+))?/libphonenumber(?:-js\\.min)?\\.js\\;version:\\1",
+    "scriptSrc": [
+      "(?:/([\\d\\.]+))?/libphonenumber(?:-js\\.min)?\\.js\\;version:\\1"
+    ],
     "website": "https://github.com/google/libphonenumber"
   },
   "libwww-perl-daemon": {
@@ -2208,7 +2384,9 @@
       59
     ],
     "description": "The lite-youtube-embed technique renders the YouTube video inside the IFRAME tag only when the play button in clicked thus improving the core web vitals score of your website.",
-    "dom": "lite-youtube",
+    "dom": [
+      "lite-youtube"
+    ],
     "implies": [
       "YouTube"
     ],

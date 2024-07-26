@@ -13,7 +13,9 @@
       "freemium"
     ],
     "saas": true,
-    "scriptSrc": "\\.vaptcha\\.com/v([\\d\\.]+)\\.js\\;version:\\1",
+    "scriptSrc": [
+      "\\.vaptcha\\.com/v([\\d\\.]+)\\.js\\;version:\\1"
+    ],
     "website": "https://en.vaptcha.com"
   },
   "VDX.tv": {
@@ -21,7 +23,9 @@
       36
     ],
     "description": "VDX.tv (formerly Exponential) is a global advertising technology company that is transforming the way brands connect with relevant audiences in today's converging video landscape.",
-    "dom": "link[href*='.tribalfusion.com'], link[href*='.exponential.com']",
+    "dom": [
+      "link[href*='.tribalfusion.com'], link[href*='.exponential.com']"
+    ],
     "icon": "VDX.tv.png",
     "pricing": [
       "poa"
@@ -51,9 +55,13 @@
       10
     ],
     "description": "VK is a Russian online social media and social networking service.",
-    "dom": "img[src*='vk.com/rtrg?p=VK-RTRG-']",
+    "dom": [
+      "img[src*='vk.com/rtrg?p=VK-RTRG-']"
+    ],
     "icon": "vk.svg",
-    "scriptSrc": "vk\\.com/js/api/openapi\\.js",
+    "scriptSrc": [
+      "vk\\.com/js/api/openapi\\.js"
+    ],
     "website": "https://vk.com/"
   },
   "VKUI": {
@@ -61,7 +69,9 @@
       66
     ],
     "description": "VKUI is a set of React components with which you can create interfaces that are visually indistinguishable from our iOS and Android applications.",
-    "dom": "html.vkui",
+    "dom": [
+      "html.vkui"
+    ],
     "icon": "vk.svg",
     "oss": true,
     "website": "https://vkcom.github.io/VKUI"
@@ -77,7 +87,9 @@
     "implies": [
       "Microsoft ASP.NET"
     ],
-    "scriptSrc": "vs350\\.js",
+    "scriptSrc": [
+      "vs350\\.js"
+    ],
     "website": "https://www.vpasp.com"
   },
   "VTEX": {
@@ -91,7 +103,9 @@
       "vtex_session": ""
     },
     "description": "VTEX is an ecommerce software that manages multiple online stores.",
-    "dom": "link[href*='.vteximg.com.br'], source[srcset*='.vteximg.com.br']",
+    "dom": [
+      "link[href*='.vteximg.com.br'], source[srcset*='.vteximg.com.br']"
+    ],
     "headers": {
       "Server": "^VTEX IO$",
       "powered": "vtex"
@@ -144,7 +158,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "cdn\\.pushcrew\\.\\w+",
+    "scriptSrc": [
+      "cdn\\.pushcrew\\.\\w+"
+    ],
     "website": "https://vwo.com/engage"
   },
   "Vaadin": {
@@ -159,7 +175,10 @@
     "js": {
       "vaadin": ""
     },
-    "scriptSrc": "vaadinBootstrap\\.js(?:\\?v=([\\d.]+))?\\;version:\\1",
+    "scriptSrc": [
+      "vaadinBootstrap\\.js(?:\\?v=([\\d.]+))?\\;version:\\1"
+    ],
+    "cpe": "cpe:2.3:a:vaadin:vaadin:*:*:*:*:*:*:*:*",
     "website": "https://vaadin.com"
   },
   "ValueCommerce": {
@@ -180,7 +199,9 @@
       }
     },
     "icon": "ValueCommerce.png",
-    "scriptSrc": "\\.valuecommerce\\.com",
+    "scriptSrc": [
+      "\\.valuecommerce\\.com"
+    ],
     "website": "https://www.valuecommerce.co.jp"
   },
   "Vanco Payment Solutions": {
@@ -189,7 +210,9 @@
       41
     ],
     "description": "Vanco Payment Solutions provides credit card processing to nonprofits.",
-    "dom": "a[href*='.eservicepayments.com/']",
+    "dom": [
+      "a[href*='.eservicepayments.com/']"
+    ],
     "icon": "Vanco.svg",
     "pricing": [
       "payg",
@@ -197,7 +220,9 @@
       "low"
     ],
     "saas": true,
-    "scriptSrc": "\\.eservicepayments\\.com/",
+    "scriptSrc": [
+      "\\.eservicepayments\\.com/"
+    ],
     "website": "https://www.vancopayments.com"
   },
   "Vanilla": {
@@ -247,7 +272,9 @@
       1
     ],
     "cpe": "cpe:2.3:a:vardot:varbase:*:*:*:*:*:*:*:*",
-    "dom": "meta[content='Varbase'],div[class*='varbase_'],div[class*='_varbase'],div[class*='varbase-'],div[class*='block-varbase'],div[class*='blockvarbase']",
+    "dom": [
+      "meta[content='Varbase'],div[class*='varbase_'],div[class*='_varbase'],div[class*='varbase-'],div[class*='block-varbase'],div[class*='blockvarbase']"
+    ],
     "icon": "varbase.png",
     "implies": [
       "Drupal"
@@ -305,7 +332,9 @@
       105
     ],
     "description": "Vectary is fully-featured 3D modeling tool with photorealistic real-time rendering, augmented reality, interactions and animations.",
-    "dom": "iframe[src*='app.vectary.com/']",
+    "dom": [
+      "iframe[src*='app.vectary.com/']"
+    ],
     "icon": "vectary.svg",
     "pricing": [
       "low",
@@ -336,7 +365,9 @@
       41
     ],
     "description": "Venmo is a mobile payment service owned by PayPal. Venmo account holders can transfer funds to others via a mobile phone app.",
-    "dom": "[aria-labelledby='pi-venmo'], [data-venmo-supported='true']",
+    "dom": [
+      "[aria-labelledby='pi-venmo'], [data-venmo-supported='true']"
+    ],
     "icon": "Venmo.svg",
     "website": "https://venmo.com"
   },
@@ -382,7 +413,9 @@
     "js": {
       "VuVeoxaContent": ""
     },
-    "scriptSrc": "tracking\\.veoxa\\.com",
+    "scriptSrc": [
+      "tracking\\.veoxa\\.com"
+    ],
     "website": "https://veoxa.com"
   },
   "Vercel": {
@@ -443,7 +476,9 @@
       "payg"
     ],
     "saas": true,
-    "scripts": "2checkout\\.com",
+    "scripts": [
+      "2checkout\\.com"
+    ],
     "website": "https://www.2checkout.com"
   },
   "VerifyPass": {
@@ -533,7 +568,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "js\\.verygoodvault\\.com/",
+    "scriptSrc": [
+      "js\\.verygoodvault\\.com/"
+    ],
     "website": "https://www.verygoodsecurity.com"
   },
   "Vev": {
@@ -552,7 +589,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "\\.vev\\.design/",
+    "scriptSrc": [
+      "\\.vev\\.design/"
+    ],
     "website": "https://www.vev.design"
   },
   "ViaBill": {
@@ -569,7 +608,9 @@
       "payg"
     ],
     "saas": true,
-    "scriptSrc": "\\.viabill\\.com/",
+    "scriptSrc": [
+      "\\.viabill\\.com/"
+    ],
     "website": "https://viabill.com"
   },
   "Viafoura": {
@@ -604,7 +645,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "\\.vidazoo\\.com",
+    "scriptSrc": [
+      "\\.vidazoo\\.com"
+    ],
     "website": "https://www.vidazoo.com"
   },
   "Video Greet": {
@@ -633,7 +676,9 @@
       "\\.vjs-big-play-button\\;confidence:75"
     ],
     "description": "Video.js is a JavaScript and CSS library that makes it easier to work with and build on HTML5 video.",
-    "dom": "div.video-js",
+    "dom": [
+      "div.video-js"
+    ],
     "icon": "VideoJS.svg",
     "js": {
       "VideoJS": "",
@@ -657,7 +702,9 @@
       "<link[^>]* href=[^>]+(?:\\.vigbo\\.com|\\.gophotoweb\\.com)"
     ],
     "icon": "vigbo.png",
-    "scriptSrc": "(?:\\.vigbo\\.com|\\.gophotoweb\\.com)",
+    "scriptSrc": [
+      "(?:\\.vigbo\\.com|\\.gophotoweb\\.com)"
+    ],
     "website": "https://vigbo.com"
   },
   "Vigil": {
@@ -693,7 +740,9 @@
       14
     ],
     "description": "Vimeo is a video hosting, sharing and services platform. Vimeo operation an ad-free basis by providing subscription plans.",
-    "dom": "iframe[src*='vimeo.com'],embed[src*='vimeo.com']",
+    "dom": [
+      "iframe[src*='vimeo.com'],embed[src*='vimeo.com']"
+    ],
     "icon": "Vimeo.svg",
     "js": {
       "Vimeo.Player": "",
@@ -721,7 +770,9 @@
     ],
     "saas": true,
     "website": "https://vimeo.com/ott",
-    "xhr": "api\\.vhx\\.tv"
+    "xhr": [
+      "api\\.vhx\\.tv"
+    ]
   },
   "Viqeo": {
     "cats": [
@@ -745,14 +796,18 @@
       94
     ],
     "description": "Viral Loops is a viral and referral marketing platform to launch ranking competitions, sweepstakes, pre-launch and referral programs.",
-    "dom": "link[href*='wp-content/plugins/viral-loops-wp-integration/assets/']",
+    "dom": [
+      "link[href*='wp-content/plugins/viral-loops-wp-integration/assets/']"
+    ],
     "icon": "Viral Loops.svg",
     "pricing": [
       "low",
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "app\\.viral-loops\\.com/",
+    "scriptSrc": [
+      "app\\.viral-loops\\.com/"
+    ],
     "website": "https://viral-loops.com"
   },
   "Virgool": {
@@ -763,7 +818,9 @@
       "X-Powered-By": "^Virgool$"
     },
     "icon": "Virgool.svg",
-    "url": "^https?://(?:www\\.)?virgool\\.io",
+    "url": [
+      "^https?://(?:www\\.)?virgool\\.io"
+    ],
     "website": "https://virgool.io"
   },
   "Virtooal": {
@@ -777,9 +834,13 @@
       "low",
       "recurring"
     ],
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "saas": true,
-    "scriptSrc": "\\.virtooal\\.com/",
+    "scriptSrc": [
+      "\\.virtooal\\.com/"
+    ],
     "website": "https://try.virtooal.com"
   },
   "Virtuagym": {
@@ -787,7 +848,9 @@
       53
     ],
     "description": "Virtuagym is a cloud-based membership management and coaching platform designed for personal trainers and fitness businesses of all sizes.",
-    "dom": "a[href*='.virtuagym.com'][target='_blank'], iframe[src*='.virtuagym.com/']",
+    "dom": [
+      "a[href*='.virtuagym.com'][target='_blank'], iframe[src*='.virtuagym.com/']"
+    ],
     "icon": "Virtuagym.svg",
     "js": {
       "VGTutorial": "",
@@ -807,7 +870,9 @@
     "description": "Virtual Chat is a live-chat service for web sites.",
     "icon": "Virtual Chat.png",
     "saas": true,
-    "scriptSrc": "virtual-chat\\.co\\.il/",
+    "scriptSrc": [
+      "virtual-chat\\.co\\.il/"
+    ],
     "website": "https://www.virtual-chat.co.il"
   },
   "VirtualSpirits": {
@@ -853,7 +918,9 @@
       "Copyright": "^Copyright &copy; \\d{4} OpenLink Software",
       "Keywords": "^OpenLink Virtuoso Sparql"
     },
-    "url": "/sparql",
+    "url": [
+      "/sparql"
+    ],
     "website": "https://virtuoso.openlinksw.com/"
   },
   "Virtuous": {
@@ -866,7 +933,9 @@
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "\\.virtuoussoftware\\.com/",
+    "scriptSrc": [
+      "\\.virtuoussoftware\\.com/"
+    ],
     "website": "https://virtuous.org"
   },
   "Virtusize": {
@@ -879,14 +948,18 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "\\.virtusize\\.jp/",
+    "scriptSrc": [
+      "\\.virtusize\\.jp/"
+    ],
     "website": "https://www.virtusize.com"
   },
   "Visa": {
     "cats": [
       41
     ],
-    "dom": "[aria-labelledby='pi-visa']",
+    "dom": [
+      "[aria-labelledby='pi-visa']"
+    ],
     "icon": "Visa.svg",
     "js": {
       "visaApi": "",
@@ -901,7 +974,9 @@
     ],
     "description": "Visa facilitates electronic funds transfers throughout the world, most commonly through Visa-branded credit cards, debit cards and prepaid cards.",
     "icon": "Visa.svg",
-    "scriptSrc": "secure\\.checkout\\.visa\\.com",
+    "scriptSrc": [
+      "secure\\.checkout\\.visa\\.com"
+    ],
     "website": "https://checkout.visa.com"
   },
   "Visely": {
@@ -977,7 +1052,9 @@
       "Shopify"
     ],
     "saas": true,
-    "scriptSrc": "//whai-cdn\\.nyc\\d\\.cdn\\.digitaloceanspaces\\.com/",
+    "scriptSrc": [
+      "//whai-cdn\\.nyc\\d\\.cdn\\.digitaloceanspaces\\.com/"
+    ],
     "website": "https://apps.shopify.com/product-recommendation-quiz"
   },
   "Visualsoft": {
@@ -1040,7 +1117,9 @@
       "Shopify"
     ],
     "saas": true,
-    "scriptSrc": "//appsolve\\.io/",
+    "scriptSrc": [
+      "//appsolve\\.io/"
+    ],
     "website": "https://vitals.co"
   },
   "Vite": {
@@ -1048,7 +1127,9 @@
       19
     ],
     "description": "Vite is a rapid development tool for modern web projects.",
-    "dom": "script#vite-legacy-polyfill, script#vite-legacy-entry",
+    "dom": [
+      "script#vite-legacy-polyfill, script#vite-legacy-entry"
+    ],
     "icon": "vite.svg",
     "js": {
       "__vite_is_modern_browser": ""
@@ -1089,7 +1170,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "\\.vitrin\\.me/",
+    "scriptSrc": [
+      "\\.vitrin\\.me/"
+    ],
     "website": "https://vitrin.me"
   },
   "Vizury": {
@@ -1106,7 +1189,9 @@
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "\\.vizury\\.com",
+    "scriptSrc": [
+      "\\.vizury\\.com"
+    ],
     "website": "https://www.vizury.com"
   },
   "Vnda": {
@@ -1138,7 +1223,9 @@
       105
     ],
     "description": "Vntana (stylised as VNTANA) is an American social augmented reality company.",
-    "dom": "iframe[src*='embed.vntana.com/'], iframe[nitro-lazy-src*='embed.vntana.com/']",
+    "dom": [
+      "iframe[src*='embed.vntana.com/'], iframe[nitro-lazy-src*='embed.vntana.com/']"
+    ],
     "icon": "Vntana.png",
     "pricing": [
       "freemium",
@@ -1165,7 +1252,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "/volusion\\.js(?:\\?([\\d.]*))?\\;version:\\1",
+    "scriptSrc": [
+      "/volusion\\.js(?:\\?([\\d.]*))?\\;version:\\1"
+    ],
     "website": "https://www.volusion.com"
   },
   "Vonage Video API": {
@@ -1179,7 +1268,9 @@
       "payg"
     ],
     "saas": true,
-    "scriptSrc": "\\.opentok\\.com/",
+    "scriptSrc": [
+      "\\.opentok\\.com/"
+    ],
     "website": "https://www.vonage.com/communications-apis/video/"
   },
   "Voog.com Website Builder": {
@@ -1191,7 +1282,9 @@
       "<script [^>]*src=\"[^\"]*voog\\.com/tracker\\.js"
     ],
     "icon": "Voog.png",
-    "scriptSrc": "voog\\.com/tracker\\.js",
+    "scriptSrc": [
+      "voog\\.com/tracker\\.js"
+    ],
     "website": "https://www.voog.com/"
   },
   "Voracio": {
@@ -1289,7 +1382,9 @@
       "\\.vue-notification-group"
     ],
     "description": "Vue.js is an open-source model–view–viewmodel JavaScript framework for building user interfaces and single-page applications.",
-    "dom": ".vue-app",
+    "dom": [
+      ".vue-app"
+    ],
     "html": [
       "<[^>]+\\sdata-v(?:ue)?-"
     ],
@@ -1313,7 +1408,9 @@
       19
     ],
     "description": "Vue2-animate is a Vue.js port of Animate.css.",
-    "dom": "link[href*='/vue2-animate.min.css']",
+    "dom": [
+      "link[href*='/vue2-animate.min.css']"
+    ],
     "icon": "vue.svg",
     "implies": [
       "Vue.js",
@@ -1349,7 +1446,9 @@
       "\\.v-application \\.d-block"
     ],
     "description": "Vuetify is a reusable semantic component framework for Vue.js that aims to provide clean, semantic and reusable components.",
-    "dom": "style#vuetify-theme-stylesheet",
+    "dom": [
+      "style#vuetify-theme-stylesheet"
+    ],
     "icon": "Vuetify.svg",
     "implies": [
       "Vue.js"
@@ -1405,7 +1504,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "\\.v4guard\\.io/checkpoint",
+    "scriptSrc": [
+      "\\.v4guard\\.io/checkpoint"
+    ],
     "website": "https://v4guard.io"
   },
   "vBulletin": {
@@ -1440,7 +1541,9 @@
       72
     ],
     "description": "vcita is an all-in-one customer service and business management software designed for service providers.",
-    "dom": "iframe[src*='www.vcita.com/widgets/']",
+    "dom": [
+      "iframe[src*='www.vcita.com/widgets/']"
+    ],
     "icon": "vcita.svg",
     "js": {
       "LiveSite.btCheckout": "",
@@ -1479,7 +1582,9 @@
       59
     ],
     "description": "vxe-table is a Vue.js based PC form component, support add, delete, change, virtual scroll, lazy load, shortcut menu, data validation, tree structure, print export, form rendering, data paging, virtual list, modal window, custom template, renderer, flexible configuration items, extension interface.",
-    "dom": "div[class*='vxe-table']",
+    "dom": [
+      "div[class*='vxe-table']"
+    ],
     "icon": "vxe-table.png",
     "oss": true,
     "requires": [
